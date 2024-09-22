@@ -10,27 +10,26 @@ function validateForm() {
     let valid = true;
     const errorImage = document.getElementById('errorImage');
 
-    // Reset red styles and hide the image
     inputs.forEach(input => {
         input.element.classList.remove('error');
         input.element.setCustomValidity('');
-        errorImage.style.display = 'none'; // Hide image initially
+        errorImage.style.display = 'none'; 
     });
 
     inputs.forEach(input => {
         if (!input.element.value) {
             valid = false;
-            input.element.classList.add('error'); // Add error class
-            input.element.setCustomValidity('Please fill this form first.'); // Set custom message
+            input.element.classList.add('error'); 
+            input.element.setCustomValidity('Please fill this form first.'); 
         }
     });
 
-    // Show the image if there are errors
+ 
     if (!valid) {
         errorImage.style.display = 'block';
     }
 
-    return valid; // Only submit the form if valid is true
+    return valid; 
 }
 const collapsibles = document.querySelectorAll(".collapsible");
 collapsibles.forEach((item) =>
@@ -45,22 +44,19 @@ function showVideoModal() {
     const modal = document.getElementById('videoModal');
     const video = document.getElementById('video');
 
-    // Show the modal
+   
     modal.style.display = 'flex';
 
-    // Play the video when the modal opens
     video.play();
 }
 function closeVideoModal() {
     const modal = document.getElementById('videoModal');
     const video = document.getElementById('video');
 
-    // Hide the modal
     modal.style.display = 'none';
 
     // Pause the video when the modal closes
     video.pause();
-    // Optionally, reset the video to the beginning
 }
 
 

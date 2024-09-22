@@ -17,97 +17,13 @@ p {
 
 
 
-
-
-
-
-
-
-  
-  /* @media (max-width: 768px) {
-    .images-container,
-    .text-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .info-image,
-    .text-block {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .text-block {
-      margin-bottom: 30px;
-    }
-  
-    .heading-container {
-      text-align: center; 
-    }
-  } */
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-
-  
-  
-
-  
- 
-  
-
-  /* .advocacy-section {
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .advocacy-buttons button {
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #0a615b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0a615b;
-    color: white;
-    margin-top: 50px;
-  }
-   */
-  
-  
-
-
-
-
-
-
-
-
-
-
   /* new css */
 /* navbar */
 
 .bkcolor{
     background-image: url("Assests/Group 55.png"), url("Assests/image 2.png");
     background-size: cover; /* Adjust the size for each image */
-    background-position: top center, bottom center, bottom center; /* Position the wave at the bottom */
+    background-position: top center, bottom center, bottom center; 
     background-repeat: no-repeat;
 
 }
@@ -120,7 +36,7 @@ p {
     right: 0;
     height: 50px;         
     background: #8a8f8b; 
-    clip-path: path("M 0,0 Q 50,30 100,0 Q 150,-30 200,0 Q 250,30 300,0 L 300,50 L 0,50 Z"); /* S shape laying down */
+    clip-path: path("M 0,0 Q 50,30 100,0 Q 150,-30 200,0 Q 250,30 300,0 L 300,50 L 0,50 Z"); */
 
   .navbar {
     display: flex;
@@ -306,7 +222,7 @@ margin-top: 4px;
 .hero-section .content h1 {
     font-size: 36px;
     color: transparent;
-    -webkit-text-stroke: 0.5px white; /* Apply a black stroke around the text */
+    -webkit-text-stroke: 0.5px white; 
 }
 
 .hero-section .content h1 span {
@@ -339,10 +255,10 @@ width: 80%;
     border: 2px solid red;
 }
 .error-image {
-    position: absolute; /* Adjust as needed */
-    z-index: 1110; /* Higher z-index */
-    display: block; /* Display as a block */
-    margin-bottom: 5px; /* Space below the image */
+    position: absolute;
+    z-index: 1110;
+    display: block; 
+    margin-bottom: 5px;
 }
 .animate-placeholder::placeholder {
     animation: moveUp 0.3s ease forwards;
@@ -393,24 +309,24 @@ width: 80%;
     background-color: transparent;
   }
   #country-select {
-    width: 100%; /* Full width */
-    padding: 10px; /* Padding for better touch target */
+    width: 100%; 
+    padding: 10px; 
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-    font-size: 16px; /* Font size */
+    font-size: 16px;
     background: linear-gradient(180deg, #2A7D6C 0%, rgba(62, 105, 96, 0.62) 100%);
-    color: #FFFFFFB2; /* Text color */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: border-color 0.3s ease; /* Smooth border color change */
-    position: relative; /* Ensure proper positioning */
-    z-index: 1; /* Bring it to the front */
+    color: #FFFFFFB2; 
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    position: relative; 
+    z-index: 1;
     max-width: 250px;
   }
   
   /* Style for options */
   #country-select option {
-    background-color: #2A7D6C; /* Background color for options */
-    color: #FFFFFF; /* Text color for options */
+    background-color: #2A7D6C; 
+    color: #FFFFFF; 
   }
   
  
@@ -431,21 +347,21 @@ width: 80%;
     font-size: 16px;
     font-weight: 600;
     margin-top: 20px;
-    gap: 10px; /* space between icon and text */
+    gap: 10px; 
     transition: background-color 0.3s;
   }
   
   .contact-form button img.icon {
-    width: 20px; /* adjust the size of the icon */
+    width: 20px; 
     height: 20px;
   }
   .contact-form input.error,
   .contact-form select.error {
-      border: 1px solid red; /* Change border color to red */
+      border: 1px solid red; 
   }
   
   .contact-form input.error::placeholder {
-      color: red; /* Change placeholder color to red */
+      color: red;
   }
   .contact-form button:hover {
     background: #35BB9C;
@@ -480,12 +396,11 @@ width: 80%;
   }
   .contact-form input:focus,
 .contact-form select:focus {
-    outline: none; /* Remove default focus outline */
-    border: 1px solid white; /* Change border to white on focus */
-    color: white; /* Make the text inside the input white */
+    outline: none; 
+    border: 1px solid white;
+    color: white; 
 }
 
-/* Placeholder text color when focused */
 .contact-form input:focus::placeholder,
 .contact-form select:focus::placeholder {
     color: rgba(255, 255, 255, 0.6); /* Lighten placeholder text color */
@@ -493,13 +408,12 @@ width: 80%;
 
 /* Label hover effect to focus input field */
 .contact-form label {
-    cursor: pointer; /* Ensure labels are clickable */
+    cursor: pointer;
 }
 
-/* Optional: You can add transition for smooth border-color change */
 .contact-form input,
 .contact-form select {
-    transition: border-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    transition: border-color 0.3s ease, color 0.3s ease; 
 }
 
 
@@ -669,7 +583,7 @@ padding: 10px 30px;
     display: inline-block;
     padding: 10px 5px;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
   
   .success-rate-btn:hover {
@@ -719,8 +633,8 @@ padding: 10px 30px;
 
   }
   .text-container {
-    display: grid;                /* Use CSS Grid */
-    grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+    display: grid;               
+    grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, auto); 
     justify-content: space-between;
     align-items:start; 
@@ -798,10 +712,9 @@ padding-right: 100px;
     width: 160px;
     height: 160px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0; /* Top edges rounded, bottom edges square */
+    border-radius: 10px 10px 0 0; 
     z-index: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Light shadow effect */
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
   }
   
   .testimonial-content {
@@ -857,13 +770,13 @@ padding: 100px 30px;
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
-    border: none;               /* No border */
-    background: none;            /* No background */
-    padding: 0;                  /* Remove padding */
+    border: none;              
+    background: none;          
+    padding: 0;              
     cursor: pointer;
-    font-size: 70px;             /* Large font size for the arrow */
-    color: #EAEAEA;              /* Color of the arrow */
-    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+    font-size: 70px;             
+    color: #EAEAEA;            
+    transition: color 0.3s ease, transform 0.2s ease;
     display: block;
     z-index: 1;
 }
@@ -1271,11 +1184,11 @@ right: 3%;
     text-align: center;
     margin-top: 40px;
     padding-bottom: 120px;
-    background-image: url('Assests/Rectangle\ \(3\).png'); /* Replace with your background image */
-    background-size: cover;  /* Ensures the image covers the entire section */
-    background-position: bottom; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 90%; /* Makes sure it covers the full screen height */
+    background-image: url('Assests/Rectangle\ \(3\).png'); 
+    background-size: cover;  
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    height: 90%; 
     z-index: 1000;
 }
   
@@ -1353,7 +1266,6 @@ right: 3%;
     display: none;
   }
   
-  /* On hover, show the second video icon and hide the first one */
   .video-icon-container:hover .video-icon-1 {
     display: block;
   }
@@ -1369,12 +1281,11 @@ right: 3%;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
+    background-color: rgba(0, 0, 0, 0.8); 
     justify-content: center;
     align-items: center;
   }
   
-  /* Modal content (video) */
   .modal-content {
     position: relative;
     max-width: 80%;
@@ -1398,8 +1309,8 @@ right: 3%;
   }
   #video {
     width: 100%;
-    height: auto; /* Keep the aspect ratio */
-    border-radius: 10px; /* Optional for rounded corners */
+    height: auto; 
+    border-radius: 10px; 
   }
   .check{
 display: flex;
@@ -1450,14 +1361,14 @@ width: 100%;
     cursor: pointer;
   }
   .error-image {
-    position: relative; /* or absolute if you want to position it in relation to a parent */
-    z-index: 10; /* Set a higher z-index */
-    display: block; /* Ensure it’s displayed as a block */
-    margin-top: 5px; /* Optional: Add some space above the image */
+    position: relative; 
+    z-index: 10;
+    display: block; 
+    margin-top: 5px;
 }
 
 .input-container {
-    position: relative; /* Ensure positioning context for absolute elements */
+    position: relative; 
 }
   @media (min-width: 786px) {
     .small-title {
@@ -1529,11 +1440,11 @@ max-width: 900px;
     margin-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 50px;
-    background-image: url('Assests/Rectangle\ \(4\).png'); /* Replace with your background image */
-    background-size: cover;  /* Ensures the image covers the entire section */
-    background-position: bottom; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 99.5%; /* Makes sure it covers the full screen height */
+    background-image: url('Assests/Rectangle\ \(4\).png'); 
+    background-size: cover; 
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    height: 99.5%;
     z-index: 1000;
     width: 108%;
 }
